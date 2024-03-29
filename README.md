@@ -1,9 +1,9 @@
-## :no_entry: Requisitos:
+## :no_entry: Requirements:
 
 - PHP 8.0 (or upper)
 - Laravel 9 (or upper)
 
-## :package: Instalación:
+## :package: Instalation:
 
 - Edit the `composer.json` file and add this block:
 
