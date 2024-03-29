@@ -10,7 +10,7 @@
         "repositories": [
             {
                 "type": "vcs",
-                "url": "https://github.com/d4m111/threadManager.git
+                "url": "https://github.com/d4m111/threadManager.git"
             }
         ]
 
