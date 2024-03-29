@@ -1,3 +1,7 @@
+## :page_facing_up: Description:
+
+This package for Laravel allows you to work with threads (pcntl_fork) and share information between them.
+
 ## :no_entry: Requirements:
 
 - PHP 8.0 (or upper)
@@ -49,10 +53,6 @@ Delete shared memory
 
 ### appendToMemQueue(mixed $data): void
 `$data`: append to shared memory queue
-
-## :page_facing_up: Description:
-
-This package for Laravel allows you to work with threads (pcntl_fork) and share information between them 
 
 ## :wrench: Who to use:
 
