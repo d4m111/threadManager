@@ -1,0 +1,21 @@
+{
+    "name": "d4m111/thread-manager",
+    "description": "PHP process thread manager",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "D4m111\\ThreadManager\\App\\": "src/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damián Curcio",
+            "email": "d4m111@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=9"
+    }
+}
