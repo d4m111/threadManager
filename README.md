@@ -50,6 +50,9 @@ Delete shared memory
 ### appendToMemQueue(mixed $data): void
 `$data`: append to shared memory queue
 
+## :page_facing_up: Description:
+
+This package for Laravel allows you using threads (pcntl_fork) and share information between them 
 
 ## :wrench: Who to use:
 
