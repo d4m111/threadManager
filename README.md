@@ -10,7 +10,7 @@
         "repositories": [
             {
                 "type": "vcs",
-                "url": "https://debianUserGit:C-wsF3UGhhkKY5zU1TUB@gitlab-dev.telecentro.net.ar/gnrdesarrollo/packages/thread-manager.git"
+                "url": "https://github.com/d4m111/threadManager.git
             }
         ]
 
