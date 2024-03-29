@@ -1,12 +1,12 @@
 <?php
 
-namespace d4m111\threadManager\App\Classes;
+namespace D4m111\ThreadManager\App\Classes;
 
 use Throwable;
 
 use Illuminate\Support\Facades\Log;
 
-use d4m111\threadManager\App\Classes\SharedMemory;
+use D4m111\ThreadManager\App\Classes\SharedMemory;
 
 
 class ThreadManager
@@ -66,7 +66,7 @@ class ThreadManager
                 optional(Log::channel($this->logChannel))->info($log);
 
             }else if($level == 'error'){
-                
+
                 optional(Log::channel($this->logChannel))->error($log);
             }
 

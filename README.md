@@ -53,7 +53,7 @@ Delete shared memory
 
 ## :wrench: Who to use:
 
-        use d4m111\ThreadManager\App\Classes\ThreadService;
+        use D4m111\ThreadManager\App\Classes\ThreadManager;
         
         $elements = ['first','second','third'];
 

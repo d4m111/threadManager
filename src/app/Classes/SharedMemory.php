@@ -14,7 +14,7 @@
 
 // Moidified by Damián Curcio (2024)
 
-namespace d4m111\threadManager\App\Classes;
+namespace D4m111\ThreadManager\App\Classes;
 
 class SharedMemory
 {
