@@ -57,7 +57,7 @@ Delete shared memory
         
         $elements = ['first','second','third'];
 
-        $service = new ThreadService([
+        $th = new ThreadManager([
             'processTitle' => 'test',
             'maxRunningThreads' => 2,
             'logChannel' => 'simple',
@@ -68,20 +68,20 @@ Delete shared memory
             Shared memeory was implemented because child process can't share information with the main process 
         */
 
-        $service->appendToMemQueue('START');
+        $th->appendToMemQueue('START');
 
         /* 
             It process data array in a different thread for each iteration. When the 'maxRunningThreads' number is reached, the application will wait for a thread to finish before launching new ones
         */
 
-        $service->data($elements)->each(function($item,$index,$mainProcessPid,$threadPid) use (&$service){
+        $th->data($elements)->each(function($item,$index,$mainProcessPid,$threadPid) use (&$th){
 
-            $service->appendToMemQueue($item);
+            $th->appendToMemQueue($item);
 
             echo "> $item - $index | $mainProcessPid - $threadPid \n";
 
         });
 
-        $response = $service->getMemQueue();
+        $response = $th->getMemQueue();
 
         var_dump($response);
